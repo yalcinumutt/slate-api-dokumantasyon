@@ -1,6 +1,6 @@
 # Blog Yazısı
 
-[Slate ile dökümantasyon yaratma (Blog içeriği hazırlama)](https://umutyalcin.wordpress.com/2020/09/04/slate-docs-ile-api-dokumantasyonu-olusturmak/)
+[Slate ile dökümantasyon oluşturma](https://umutyalcin.wordpress.com/2020/09/04/slate-docs-ile-api-dokumantasyonu-olusturmak/)
 
 <br />
 
