@@ -7,12 +7,12 @@ def toc_data(page_content)
   headers = []
   html_doc.css('h1, h2, h3').each do |header|
     headers.push({
-      id: header.attribute('id').to_s,
-      content: header.children,
-      title: header.children.to_s.gsub(/<[^>]*>/, ''),
-      level: header.name[1].to_i,
-      children: []
-    })
+                   id: header.attribute('id').to_s,
+                   content: header.children,
+                   title: header.children.to_s.gsub(/<[^>]*>/, ''),
+                   level: header.name[1].to_i,
+                   children: []
+                 })
   end
 
   [3,2].each do |header_level|
